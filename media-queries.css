@@ -79,3 +79,52 @@ footer>p {
     margin-bottom: 0;
     font-size: 3em;
 }
+
+.fa-key {
+    font-size: 3em;
+    margin: 0 .2em;
+}
+
+/*desktop design*/
+@media screen and (min-width: 1200px) {
+    .hidden-on-desktop>a {
+        display: none;
+    }
+    h1 {
+        float: left;
+    }
+    nav {
+        float: right;
+        line-height: 7em;
+    }
+    .nav-links {
+        display: flex;
+        align-items: flex-end;
+    }
+    nav>ul>li>a {
+        background-color: white;
+        padding: 1em;
+    }
+    .main {
+        width: 55%;
+        margin-right: 3em;
+    }
+    .sub-section {
+        width: 40%;
+    }
+    section {
+        display: inline-block;
+    }
+    footer {
+        margin-top: 15em;
+        margin-bottom: 8em;
+        font-size: 5px;
+    }
+    body {
+        margin: 2em;
+    }
+    .alert-info {
+        background-color: white;
+        border: 0;
+    }
+}
